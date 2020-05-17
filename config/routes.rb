@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  # deviseルーティング
+	# deviseルーティング
   devise_for :users, :controllers => {
   	:registrations => 'users/registrations',
   	:sessions => 'users/sessions'
